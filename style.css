@@ -1,0 +1,48 @@
+body {
+  font-family: Arial;
+  background: #fff;
+  color: #000;
+  margin: 0;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #000;
+  padding-bottom: 10px;
+}
+
+#question {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.answer {
+  border: 1px solid #000;
+  padding: 10px;
+  margin: 8px 0;
+  cursor: pointer;
+}
+
+.answer.correct {
+  background: #c8f7c5;
+}
+
+.answer.wrong {
+  background: #f7c5c5;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #000;
+  background: #fff;
+  cursor: pointer;
+}
